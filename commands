@@ -1,0 +1,184 @@
+ 1  git--version
+    2  git --version
+    3  pwd
+    4  ls
+    5  ls -a
+    6  cd
+    7  cd Desktop
+    8  ls
+    9  pwd
+   10  mkdir CRTBatch2
+   11  ls
+   12  cd CRTBarch2
+   13  cd CRTBatch2
+   14  touch Data.txt
+   15  ls
+   16  cat Data.txt
+   17  echo "Line 1 Data">Data.txt
+   18  cat Data.txt
+   19  echo "Line 2 Data">Data.txt
+   20  cat Data.txt
+   21  echo "Line 3 Data" >>Data.txt
+   22  cat Data.txt
+   23  nano Data.txt
+   24  cat Data.txt
+   25  git init
+   26  git clone <remote-url>
+   27  git status
+   28  git add Data.txt
+   29  git status
+   30  git commit -m "first commit"
+   31  git config --global user.email "ramaniksai7@gmail.com"
+   32  git config --global user.name "satyasairamani"
+   33  git config user.email
+   34  git config user.name
+   35  git commit -m "first commit"
+   36  nano Data.txt
+   37  git status
+   38  git add Data.txt
+   39  git commit -m "second commit"
+   40  git log
+   41  git remote -help
+   42  mkdir gitam-crt
+   43  ls
+   44  git add gitam-crt
+   45  git remote add gitam-crt https://github.com/ramaniksai7/gitam-crt
+   46  gitam remote show
+   47  git remote show
+   48  git remote -v
+   49  git pull gitam-crt
+   50  git pull gitam-crt
+   51  git pull gitam-crt
+   52  git pull gitam-crt
+   53  git push -u gitam-crt
+   54  git push -f --set-upstream gitam-crt master
+   55  git push -f --set-upstream gitam-crt master
+   56  git push -f --set-upstream gitam-crt master
+   57  git push -f --set-upstream gitam-crt master
+   58  git --version
+   59  pwd
+   60  ls
+   61  ls -a
+   62  clear
+   63  cd LAPTOP
+   64  cd LAPTOP/
+   65  cd Raptor
+   66  cd satya
+   67  clear
+   68  cd RAPTOR
+   69  cd RAPTOR/
+   70  clear
+   71  cd CRTBatch2
+   72  cd KVP
+   73  cd laptop
+   74  cd laptop
+   75  cd laptop
+   76  mkdir laptop
+   77  cd laptop
+   78  cd ..
+   79  cd laptop
+   80  cd
+   81  cd laptop
+   82  mkdir ds
+   83  ls
+   84  cd ds
+   85  cd
+   86  cd ds
+   87  cd laptop
+   88  cd ds
+   89  cd ..
+   90  touch data.txt
+   91  ls
+   92  cat data.txt
+   93  echo "ds">data.txt
+   94  cat data.txt
+   95  gedit data.txt
+   96  nano data.txt
+   97  nano data.txt
+   98  nano data.txt
+   99  nano data.txt
+  100  cat data.txt
+  101  nano data.txt
+  102  nano test.txt
+  103  ls
+  104  cat test.txt
+  105  rm test.txt
+  106  ls
+  107  rm -d laptop
+  108  clear
+  109  cd laptop/ds/
+  110  ls
+  111  cd ds
+  112  ls
+  113  clear
+  114  ls
+  115  git init
+  116  git status
+  117  git add data.txt
+  118  clear
+  119  cd ds
+  120  ls
+  121  cd ..
+  122  ls
+  123  git status
+  124  git init
+  125  git status
+  126  git add data.txt
+  127  git status
+  128  git commit -m "first comit"
+  129  git config --global user.email '221710309021@gitam.in'
+  130  git config -- global user.name 'k satya sai ramani'
+  131  git config -- global user.name 'k.satyasairamani'
+  132  git config user.email
+  133  git config user.name
+  134  git commit -m "first commit"
+  135  nano data.txt
+  136  git status
+  137  git add data.txt
+  138  git commit -m "second commit"
+  139  git log
+  140  clear
+  141  mkdir DS-python
+  142  ls
+  143  cd ls
+  144  cd ds
+  145  ld
+  146  ls
+  147  clear
+  148  mkdir DS-python
+  149  ls
+  150  git remote -help
+  151  clear
+  152  git remote add DS-python https:/github.com/ramaniksai7/DS-python
+  153  git remote add DS-python https://github.com/ramaniksai7/DS-python
+  154  git remote show
+  155  git remote -v
+  156  git pull DS-python master
+  157  git pull -u DS-python
+  158  git pull DS-python master
+  159  git pull -u DS-python
+  160  git remote showlear
+  161  clear
+  162  git remote add DS-python https://github.com/ramaniksai7/DS-python
+  163  git remote show
+  164  git remote -v
+  165  git pull DS-python master
+  166  clear
+  167  mkdir DS-python
+  168  git remote add DS-python https://github.com/ramaniksai7/DS-python
+  169  git remote show
+  170  git pull DS-python master
+  171  git pull DS-python
+  172  git pull DS-python master
+  173  git push -u DS-python
+  174  git push --set-upstream DS-python master
+  175  git push -f --set-upstream http://tiny.cc/GitCommands
+  176  git push -f --set-upstream DS-python master
+  177  git remote add DS-python https://github.com/ramaniksai7/DS-python
+  178  git remote show
+  179  git remote -v
+  180  git pull DS-python master
+  181  git push -u DS-python
+  182  git push --set-upstream DS-python master
+  183  clear
+  184  history
