@@ -1,0 +1,201 @@
+
+python programming
+python programming¶
+python programming
+python programming
+python programming
+python programming
+In [1]:
+print("hello!!!")
+
+hello!!!
+
+List of programming languages: //ordered list
+python
+java
+c
+c++
+.NET
+
+list of programming languages : //unordered lists
+python
+c
+c++
+java
+
+for sub headings
+python
+core python
+adv python
+
+python programming //for changing the text style ** for bold
+python programming //and * for italic style font
+
+click here for documentation //linking a url this is how it is done
+
+esc+m is the shortcut for changing th option to markdown
+
+ //for inserting an image this is how it is done
+
+ //to reduce and change the size of the pic
+
+numeric data types
+int
+float
+complex
+In [5]:
+a = 10 #integer
+b = 23.34 #float
+c = 12+3j  #complex
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+<class 'int'>
+<class 'float'>
+<class 'complex'>
+In [8]:
+c1 = 4+5j
+c2 = complex(6,8)
+print(c1+c2)
+print(c2.real) #real part of the complex no
+print(c2.imag)   #imaginary part of the complex no
+
+(10+13j)
+6.0
+8.0
+In [17]:
+#input and output functions
+#inout-->input()
+#output-->print()
+a = float(input("enter the value of a")) #type casting instead of float 
+b = float(input("enter the value of b"))#we can even use int or anyother
+print(a+b,end=" ") # end is used to stay in the same line
+print(a-b)
+print(a*b)
+print(a/b)
+print(a-b,a/b,a*b)
+print(a-b,a/b,a*b,sep=",")
+
+enter the value of a10
+enter the value of b20
+30.0 -10.0
+200.0
+0.5
+-10.0 0.5 200.0
+-10.0,0.5,200.0
+
+operators:symbol which perform some specific task
+operands:
+a + b #here + is an operator and a,b are the operands
+In [20]:
+#Arthimetic operators:+,-,*,/,%,//(floor division),**(exponential)
+a = int(input("enter a value"))
+b = int(input("enter b value"))
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)    #remainder
+print(a//b)  #int quotient
+print(a**b)   
+
+enter a value2
+enter b value5
+7
+-3
+10
+0.4
+2
+0
+32
+In [22]:
+#relational operators/comparision operators: <,>,<=,>=,==,!=
+#which return output as true or false
+a = int(input("enter value of a"))
+b = int(input("enter value of b"))
+print(a>b)
+print(a<b)
+print(a>=b)
+print(a<=b)
+print(a==b)
+print(a!=b)
+
+enter value of a5
+enter value of b5
+False
+False
+True
+True
+True
+False
+In [29]:
+#logical operators: and,or,not keywords are used 
+#print(help("keywords"))
+a=int(input("enter value a"))
+b=int(input("enter the value b"))
+print(a < b and a > 1)
+print(a <b or a > 1)#if both the conitions are true then only o/p is true
+print(not a<b)
+
+enter value a10
+enter the value b20
+True
+True
+False
+In [32]:
+#membership operators: in ,not in
+list1=[12,23,34,45,56,67]
+print(12 in list1)
+print(12 not in list1)
+
+True
+False
+In [36]:
+#condition statements: if,else,elif
+a=int(input("enter value a"))
+b=int(input("enter the value b"))
+if a<b:
+    print("a is less than b")
+elif a>b:
+    print("a is greater than b")
+else:
+    print("a is equal to b")
+
+enter value a5
+enter the value b5
+a is equal to b
+In [38]:
+#find the largest of three numbers
+a=int(input("enter value a"))
+b=int(input("enter the value b"))
+c=int(input("enter value c"))
+if (a>b and a>c):
+    print("a is greater")
+elif(b>a and b>c):
+    print("b is greater")
+else:
+    print("c is greater")
+
+enter value a10
+enter the value b90
+enter value c60
+b is greater
+In [40]:
+#loops: while,for
+#print 1 to n values 
+n=int(input("enter n value"))
+i=1
+while i<=n:
+    print(i) #use print(i,end=" ") to print in same line
+    i+=1 #same as i=i+1
+
+enter n value5
+1
+2
+3
+4
+5
+
+ 
